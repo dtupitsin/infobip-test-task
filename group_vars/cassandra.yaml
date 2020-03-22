@@ -1,0 +1,6 @@
+cassandra:
+  cluster_name: "BigCluster"
+  listen_address: "{{ansible_default_ipv4['address']}}"
+  seed_type: dynamic
+  seed_groupname: cassandra
+

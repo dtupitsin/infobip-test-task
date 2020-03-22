@@ -1,0 +1,6 @@
+---
+- hosts: "{{ node |d('cassandra')}}"
+  become: true
+
+  roles:
+    - cassandra

@@ -1,0 +1,10 @@
+---
+# defaults file for cassandra
+
+cassandra:
+  cluster_name: "cassandra_cluster"
+  listen_address: "localhost"
+  seeds: ["127.0.0.1"]
+  seed_type: "static"
+  seed_groupname: "cassandra_seeds"
+

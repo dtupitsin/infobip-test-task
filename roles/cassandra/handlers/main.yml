@@ -1,0 +1,7 @@
+---
+# handlers file for cassandra
+
+- name: cassandra restart
+  service:
+    name: cassandra
+    state: restarted

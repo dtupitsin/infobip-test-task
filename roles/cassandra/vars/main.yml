@@ -1,0 +1,1 @@
+cassandra_repo: "deb https://downloads.apache.org/cassandra/debian 311x main"
